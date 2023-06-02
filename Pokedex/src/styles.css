@@ -1,0 +1,58 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 3px 8px 8px 3px rgba(0,0,0,0.2);
+    border-radius: 25% 10%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.card h2 {
+    font-size: 16px;
+    margin: 4px 0; /* Diminuir as margens superior e inferior */
+}
+
+.card p {
+    font-size: 14px;
+    margin: 2px 0; /* Diminuir as margens superior e inferior */
+}
+
+.card div {
+    padding: 4px 0; /* Diminuir o espaçamento interno */
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    display: flex;
+}
+
+.first-legendary-cards{
+    background-color: #add8e6;
+}
+
+.second-legendary-cards{
+    background-color: #add8e6;
+}
+
